@@ -208,7 +208,7 @@ if ( ! function_exists( 'magaziner_styles' ) ) {
 	
 	function magaziner_styles() {
 		wp_enqueue_style( 'magaziner-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'magaziner-responsive', get_template_directory_uri().'/responsive.css' ); }
+		wp_enqueue_style( 'magaziner-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'magaziner-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	
