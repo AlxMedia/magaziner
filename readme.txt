@@ -70,6 +70,7 @@ Source: http://pixabay.com/
 == Changelog ==
 
 = 3.0.5 - 2020-03-25 =
+* Fixed Chrome overflow issue
 * Moved updater folder to functions folder
 * Removed responsive css on/off option
 * Removed unused alx-extensions plugin override css
