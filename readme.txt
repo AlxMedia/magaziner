@@ -1,8 +1,8 @@
 === Magaziner ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 5.3.2
-Version: 3.0.5
+Tested up to: 5.5
+Version: 3.0.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -68,6 +68,9 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: http://pixabay.com/
 
 == Changelog ==
+
+= 3.0.6 - 2020-07-12 =
+* Updated to Kirki 3.1.4
 
 = 3.0.5 - 2020-03-25 =
 * Fixed Chrome overflow issue
