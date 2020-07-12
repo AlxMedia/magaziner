@@ -72,7 +72,6 @@ Source: http://pixabay.com/
 = 3.0.6 - 2020-07-12 =
 * Updated to Kirki 3.1.4
 * Removed Social Count Plus as recommended plugin
-* Fixed broken single post layout
 
 = 3.0.5 - 2020-03-25 =
 * Fixed Chrome overflow issue
