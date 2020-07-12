@@ -691,10 +691,6 @@ if ( ! function_exists( 'magaziner_plugins' ) ) {
 				array(
 					'name' => esc_html__( 'WP-PageNavi', 'magaziner' ),
 					'slug' => 'wp-pagenavi',
-				),
-				array(
-					'name' => esc_html__( 'Social Count Plus', 'magaziner' ),
-					'slug' => 'social-count-plus',
 				)
 			);	
 			tgmpa( $plugins );
