@@ -794,7 +794,7 @@ box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 #wrap-nav-topbar .nav-menu:not(.mobile) { font-size: 13px; font-weight: 600; text-transform: uppercase; float: none; padding: 0 0 10px 0; }
 #wrap-nav-topbar .nav-menu:not(.mobile) a { color: rgba(0,0,0,0.7); }
 #wrap-nav-topbar .nav-menu:not(.mobile) a:hover { color: rgba(0,0,0,0.9); }
-#wrap-nav-topbar .nav-menu:not(.mobile) .menu { justify-content: right; }
+#wrap-nav-topbar .nav-menu:not(.mobile) .menu { justify-content: flex-end; }
 #wrap-nav-topbar .nav-menu:not(.mobile) .menu > li { margin-top: 10px; }
 #wrap-nav-topbar .nav-menu:not(.mobile) .menu ul { background: #fff; top: calc(100% + 10px); font-size: 13px; z-index: 10; box-shadow: 0 2px 2px rgba(0,0,0,0.15); }
 #wrap-nav-topbar .nav-menu:not(.mobile) .menu ul:after { border-bottom-color: #fff; }
