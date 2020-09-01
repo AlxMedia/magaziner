@@ -68,6 +68,9 @@ Source: http://pixabay.com/
 
 == Changelog ==
 
+= 3.0.9 - 2020-09-01 =
+* Added option to disable custom navigation in child themes
+
 = 3.0.8 - 2020-08-28 =
 * Improved a11y
 * Added new menu
