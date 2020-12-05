@@ -160,8 +160,8 @@
 	#header .pad { padding: 0; }
 	.site-title { width: 100%; float: none; }
 	.site-title a { text-align: center; }
-	.header-menu .toggle-search { display: none; }
-	.search-expand { width: 100%; margin-right: -30px; top: -1px; }
+	.header-menu .toggle-search { left: 15px; top: 2px; right: auto; }
+	.search-expand { width: auto; top: 2px; left: 80px; right: 70px; }
 	#header-middle .social-links { float: none; position: static; padding: 0 0 20px; margin: 0; text-align: center; width: 100%; }
 	#header-middle .social-links li { margin: 0 4px; }
 	#header-middle .social-links .social-tooltip { font-size: 18px; }
