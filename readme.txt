@@ -68,6 +68,10 @@ Source: http://pixabay.com/
 
 == Changelog ==
 
+= 3.1.0 - 2020-12-05 =
+* Added and made search button visible for mobile header menu
+* Fixed broken icons for archive headings
+
 = 3.0.9 - 2020-09-01 =
 * Added option to disable custom navigation in child themes
 

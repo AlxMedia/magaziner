@@ -1,7 +1,7 @@
 /*
 Theme Name: Magaziner
 Theme URI: http://alx.media/themes/magaziner/
-Version: 3.0.9
+Version: 3.1.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -544,7 +544,7 @@ border-radius: 3px;
 .page-title a:hover { color: #333; }
 .page-title h1 i,
 .page-title h2 i,
-.page-title h4 i { font-weight: 600; margin-right: 6px; color: rgba(255,255,255,0.2); }
+.page-title h4 i { font-weight: 900; margin-right: 6px; color: rgba(255,255,255,0.2); }
 .page-title h1,
 .page-title h2,
 .page-title h4 { color: rgba(255,255,255,0.9); font-weight: 600; }
