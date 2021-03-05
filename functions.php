@@ -98,7 +98,7 @@ add_action( 'after_setup_theme', 'magaziner_setup' );
 /* ------------------------------------ */
 add_action( 'wp', function() {
 	require_once 'functions/nav.php';
-	$nav = new \AlxMedia\Nav();
+	$nav = new \Magaziner\Nav();
 	$nav->enqueue(
 		[
 			'script' => 'js/nav.js',
