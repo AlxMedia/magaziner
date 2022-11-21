@@ -1,10 +1,10 @@
 === Magaziner ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 6.0
+Tested up to: 6.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets
 
 == Description ==
 
@@ -72,7 +72,24 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
+Header images
+1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/0BDFNIEMFZ - CC0 1.0 Universal (CC0 1.0)
+
+Subheader images
+1. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/SA20YXQRC4 - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/RKS9M8PY0X - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/EPNK1H7KBP - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/E4PSRGAB8Y - CC0 1.0 Universal (CC0 1.0)
+6. https://stocksnap.io/photo/BZJWBPQZOS - CC0 1.0 Universal (CC0 1.0)
+
+
 == Changelog ==
+
+= 3.1.9 - 2022-11-21 =
+* Changed theme from premium to free
 
 = 3.1.8 - 2022-05-30 =
 * Fixed ol and ul box-sizing content-box styling for WP 6.0

@@ -1,14 +1,14 @@
 /*
 Theme Name: Magaziner
 Theme URI: http://alx.media/themes/magaziner/
-Version: 3.1.8
+Version: 3.1.9
 Requires at least: 5.0
 Requires PHP: 5.6
-Tested up to: 6.0
+Tested up to: 6.1
 Description: <a href="http://alx.media/themes/magaziner/">Magaziner</a> is a responsive 100% high resolution theme for blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. The feature list is long: Unlimited accent colors, unlimited widget areas, 0-2 sidebars to the left or right that can be uniquely specified for each page or post, 0-4 footer widget columns, almost zero layout images, related posts and post nav, featured stories and carousel, 5 post formats, good SEO, 2 flexible custom widgets, localisation support, social links, logo upload and many more useful admin panel features.
 Author: Alexander Agnarson
 Author URI: http://alx.media
-Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: blog, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets
 Text Domain: magaziner
 
 	Copyright: (c) 2019 Alexander "Alx" Agnarson
@@ -253,6 +253,7 @@ input, textarea, button, select, label { font-family: inherit; }
 /* ------------------------------------ */
 .entry { font-size: 17px; line-height: 1.6em; }
 .entry.excerpt { font-size: 16px; color: #333; }
+.entry a { text-decoration: underline; }
 .entry p,
 .entry dd { margin-bottom: 1em; }
 .entry dt { color: #333; }
@@ -637,7 +638,9 @@ box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 .toggle-search .svg-icon { fill: #fff; margin: 0 auto; }
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
-.toggle-search.active #svg-close { display: block; }
+.toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.5); }
+.toggle-search:focus #svg-search { fill: rgba(255,255,255,0.5); }
+.toggle-search:focus #svg-close { fill: #fff; }
 
 
 /* ------------------------------------------------------------------------- *
@@ -740,6 +743,8 @@ box-shadow: 0 1px 0 rgba(255,255,255,0.1); }
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(0,0,0,0.04); }
 
 /* menu styling */
 .nav-menu a { color: #fff; }
@@ -1995,6 +2000,6 @@ user-select: none;
 /* ------------------------------------------------------------------------- */
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
-.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
+.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; left: auto; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }
