@@ -27,7 +27,7 @@
 			
 		<?php elseif ( is_author() ): ?>
 			<?php $author = get_userdata( get_query_var('author') );?>
-			<h1><i class="far fa-user"></i><?php esc_html_e('Author:','magaziner'); ?> <span><?php echo esc_attr( $author->display_name );?></span></h1>
+			<h1><i class="far fa-user"></i><?php esc_html_e('Author:','magaziner'); ?> <span><?php echo esc_html( $author->display_name );?></span></h1>
 			
 		<?php elseif ( is_category() ): ?>
 			<h1><i class="far fa-folder"></i><?php esc_html_e('Category:','magaziner'); ?> <span><?php echo single_cat_title('', false); ?></span></h1>

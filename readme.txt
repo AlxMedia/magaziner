@@ -88,6 +88,9 @@ Subheader images
 
 == Changelog ==
 
+= 3.2.0 - 2022-12-12 =
+* Fixed esc_attr issues
+
 = 3.1.9 - 2022-11-21 =
 * Changed theme from premium to free
 
