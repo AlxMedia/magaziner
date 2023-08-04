@@ -88,6 +88,9 @@ Subheader images
 
 == Changelog ==
 
+= 3.2.2 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 3.2.1 - 2022-12-22 =
 * Added missing theme demo link to description
 
