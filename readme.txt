@@ -90,6 +90,7 @@ Subheader images
 
 = 3.2.2 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 3.2.1 - 2022-12-22 =
 * Added missing theme demo link to description
